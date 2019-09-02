@@ -21,6 +21,50 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		F0985818231D529F00FCA538 /* BoolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BoolBox.swift */; };
+		F0985819231D529F00FCA538 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Box.swift */; };
+		F098581A231D529F00FCA538 /* ChoiceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ChoiceBox.swift */; };
+		F098581B231D529F00FCA538 /* DataBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* DataBox.swift */; };
+		F098581C231D529F00FCA538 /* DateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* DateBox.swift */; };
+		F098581D231D529F00FCA538 /* DecimalBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* DecimalBox.swift */; };
+		F098581E231D529F00FCA538 /* FloatBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* FloatBox.swift */; };
+		F098581F231D529F00FCA538 /* IntBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* IntBox.swift */; };
+		F0985820231D529F00FCA538 /* KeyedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* KeyedBox.swift */; };
+		F0985821231D529F00FCA538 /* NullBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* NullBox.swift */; };
+		F0985822231D529F00FCA538 /* SharedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SharedBox.swift */; };
+		F0985823231D529F00FCA538 /* SingleKeyedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* SingleKeyedBox.swift */; };
+		F0985824231D529F00FCA538 /* StringBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* StringBox.swift */; };
+		F0985825231D529F00FCA538 /* UIntBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* UIntBox.swift */; };
+		F0985826231D529F00FCA538 /* URLBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* URLBox.swift */; };
+		F0985827231D529F00FCA538 /* UnkeyedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* UnkeyedBox.swift */; };
+		F0985828231D529F00FCA538 /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ISO8601DateFormatter.swift */; };
+		F0985829231D529F00FCA538 /* KeyedStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* KeyedStorage.swift */; };
+		F098582A231D529F00FCA538 /* Metatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Metatypes.swift */; };
+		F098582B231D529F00FCA538 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* String+Extensions.swift */; };
+		F098582C231D529F00FCA538 /* XMLChoiceCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* XMLChoiceCodingKey.swift */; };
+		F098582D231D529F00FCA538 /* XMLCoderElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* XMLCoderElement.swift */; };
+		F098582E231D529F00FCA538 /* XMLHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* XMLHeader.swift */; };
+		F098582F231D529F00FCA538 /* XMLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* XMLKey.swift */; };
+		F0985830231D529F00FCA538 /* XMLStackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* XMLStackParser.swift */; };
+		F0985831231D529F00FCA538 /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* DecodingErrorExtension.swift */; };
+		F0985832231D529F00FCA538 /* DynamicNodeDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* DynamicNodeDecoding.swift */; };
+		F0985833231D529F00FCA538 /* SingleValueDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* SingleValueDecodingContainer.swift */; };
+		F0985834231D529F00FCA538 /* XMLChoiceDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* XMLChoiceDecodingContainer.swift */; };
+		F0985835231D529F00FCA538 /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* XMLDecoder.swift */; };
+		F0985836231D529F00FCA538 /* XMLDecoderImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* XMLDecoderImplementation.swift */; };
+		F0985837231D529F00FCA538 /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* XMLDecodingStorage.swift */; };
+		F0985838231D529F00FCA538 /* XMLKeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* XMLKeyedDecodingContainer.swift */; };
+		F0985839231D529F00FCA538 /* XMLUnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* XMLUnkeyedDecodingContainer.swift */; };
+		F098583A231D529F00FCA538 /* DynamicNodeEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* DynamicNodeEncoding.swift */; };
+		F098583B231D529F00FCA538 /* EncodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* EncodingErrorExtension.swift */; };
+		F098583C231D529F00FCA538 /* SingleValueEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* SingleValueEncodingContainer.swift */; };
+		F098583D231D529F00FCA538 /* XMLChoiceEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* XMLChoiceEncodingContainer.swift */; };
+		F098583E231D529F00FCA538 /* XMLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* XMLEncoder.swift */; };
+		F098583F231D529F00FCA538 /* XMLEncoderImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* XMLEncoderImplementation.swift */; };
+		F0985840231D529F00FCA538 /* XMLEncodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* XMLEncodingStorage.swift */; };
+		F0985841231D529F00FCA538 /* XMLKeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* XMLKeyedEncodingContainer.swift */; };
+		F0985842231D529F00FCA538 /* XMLReferencingEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* XMLReferencingEncoder.swift */; };
+		F0985843231D529F00FCA538 /* XMLUnkeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* XMLUnkeyedEncodingContainer.swift */; };
 		OBJ_148 /* BoolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BoolBox.swift */; };
 		OBJ_149 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Box.swift */; };
 		OBJ_150 /* ChoiceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ChoiceBox.swift */; };
@@ -152,6 +196,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0985848231D529F00FCA538 /* XMLCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0985849231D529F00FCA538 /* XMLCoder copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "XMLCoder copy-Info.plist"; path = "/Users/apollo/Documents/workspace/worldline/Tests/XMLCoder/XMLCoder copy-Info.plist"; sourceTree = "<absolute>"; };
 		OBJ_100 /* DecimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalTests.swift; sourceTree = "<group>"; };
 		OBJ_101 /* EmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTests.swift; sourceTree = "<group>"; };
 		OBJ_102 /* FloatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTests.swift; sourceTree = "<group>"; };
@@ -280,6 +326,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F0985844231D529F00FCA538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_192 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -343,6 +396,7 @@
 			children = (
 				"XMLCoder::XMLCoderTests::Product" /* XMLCoderTests.xctest */,
 				"XMLCoder::XMLCoder::Product" /* XMLCoder.framework */,
+				F0985848231D529F00FCA538 /* XMLCoder.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -399,6 +453,7 @@
 				OBJ_140 /* README.md */,
 				OBJ_141 /* docs.sh */,
 				OBJ_142 /* pod.sh */,
+				F0985849231D529F00FCA538 /* XMLCoder copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -530,6 +585,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F0985816231D529F00FCA538 /* XMLCoder_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0985845231D529F00FCA538 /* Build configuration list for PBXNativeTarget "XMLCoder_watchOS" */;
+			buildPhases = (
+				F0985817231D529F00FCA538 /* Sources */,
+				F0985844231D529F00FCA538 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLCoder_watchOS;
+			productName = XMLCoder;
+			productReference = F0985848231D529F00FCA538 /* XMLCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		"XMLCoder::SwiftPMPackageDescription" /* XMLCoderPackageDescription */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_194 /* Build configuration list for PBXNativeTarget "XMLCoderPackageDescription" */;
@@ -603,11 +674,63 @@
 				"XMLCoder::SwiftPMPackageDescription" /* XMLCoderPackageDescription */,
 				"XMLCoder::XMLCoderPackageTests::ProductTarget" /* XMLCoderPackageTests */,
 				"XMLCoder::XMLCoderTests" /* XMLCoderTests */,
+				F0985816231D529F00FCA538 /* XMLCoder_watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F0985817231D529F00FCA538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				F0985818231D529F00FCA538 /* BoolBox.swift in Sources */,
+				F0985819231D529F00FCA538 /* Box.swift in Sources */,
+				F098581A231D529F00FCA538 /* ChoiceBox.swift in Sources */,
+				F098581B231D529F00FCA538 /* DataBox.swift in Sources */,
+				F098581C231D529F00FCA538 /* DateBox.swift in Sources */,
+				F098581D231D529F00FCA538 /* DecimalBox.swift in Sources */,
+				F098581E231D529F00FCA538 /* FloatBox.swift in Sources */,
+				F098581F231D529F00FCA538 /* IntBox.swift in Sources */,
+				F0985820231D529F00FCA538 /* KeyedBox.swift in Sources */,
+				F0985821231D529F00FCA538 /* NullBox.swift in Sources */,
+				F0985822231D529F00FCA538 /* SharedBox.swift in Sources */,
+				F0985823231D529F00FCA538 /* SingleKeyedBox.swift in Sources */,
+				F0985824231D529F00FCA538 /* StringBox.swift in Sources */,
+				F0985825231D529F00FCA538 /* UIntBox.swift in Sources */,
+				F0985826231D529F00FCA538 /* URLBox.swift in Sources */,
+				F0985827231D529F00FCA538 /* UnkeyedBox.swift in Sources */,
+				F0985828231D529F00FCA538 /* ISO8601DateFormatter.swift in Sources */,
+				F0985829231D529F00FCA538 /* KeyedStorage.swift in Sources */,
+				F098582A231D529F00FCA538 /* Metatypes.swift in Sources */,
+				F098582B231D529F00FCA538 /* String+Extensions.swift in Sources */,
+				F098582C231D529F00FCA538 /* XMLChoiceCodingKey.swift in Sources */,
+				F098582D231D529F00FCA538 /* XMLCoderElement.swift in Sources */,
+				F098582E231D529F00FCA538 /* XMLHeader.swift in Sources */,
+				F098582F231D529F00FCA538 /* XMLKey.swift in Sources */,
+				F0985830231D529F00FCA538 /* XMLStackParser.swift in Sources */,
+				F0985831231D529F00FCA538 /* DecodingErrorExtension.swift in Sources */,
+				F0985832231D529F00FCA538 /* DynamicNodeDecoding.swift in Sources */,
+				F0985833231D529F00FCA538 /* SingleValueDecodingContainer.swift in Sources */,
+				F0985834231D529F00FCA538 /* XMLChoiceDecodingContainer.swift in Sources */,
+				F0985835231D529F00FCA538 /* XMLDecoder.swift in Sources */,
+				F0985836231D529F00FCA538 /* XMLDecoderImplementation.swift in Sources */,
+				F0985837231D529F00FCA538 /* XMLDecodingStorage.swift in Sources */,
+				F0985838231D529F00FCA538 /* XMLKeyedDecodingContainer.swift in Sources */,
+				F0985839231D529F00FCA538 /* XMLUnkeyedDecodingContainer.swift in Sources */,
+				F098583A231D529F00FCA538 /* DynamicNodeEncoding.swift in Sources */,
+				F098583B231D529F00FCA538 /* EncodingErrorExtension.swift in Sources */,
+				F098583C231D529F00FCA538 /* SingleValueEncodingContainer.swift in Sources */,
+				F098583D231D529F00FCA538 /* XMLChoiceEncodingContainer.swift in Sources */,
+				F098583E231D529F00FCA538 /* XMLEncoder.swift in Sources */,
+				F098583F231D529F00FCA538 /* XMLEncoderImplementation.swift in Sources */,
+				F0985840231D529F00FCA538 /* XMLEncodingStorage.swift in Sources */,
+				F0985841231D529F00FCA538 /* XMLKeyedEncodingContainer.swift in Sources */,
+				F0985842231D529F00FCA538 /* XMLReferencingEncoder.swift in Sources */,
+				F0985843231D529F00FCA538 /* XMLUnkeyedEncodingContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -755,6 +878,68 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		F0985846231D529F00FCA538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "XMLCoder copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMLCoder-watchOS";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = XMLCoder;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F0985847231D529F00FCA538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "XMLCoder copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMLCoder-watchOS";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = XMLCoder;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		OBJ_145 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -947,6 +1132,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F0985845231D529F00FCA538 /* Build configuration list for PBXNativeTarget "XMLCoder_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0985846231D529F00FCA538 /* Debug */,
+				F0985847231D529F00FCA538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		OBJ_144 /* Build configuration list for PBXNativeTarget "XMLCoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
