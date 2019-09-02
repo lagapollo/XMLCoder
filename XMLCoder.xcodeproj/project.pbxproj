@@ -615,9 +615,9 @@
 			productName = XMLCoderPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"XMLCoder::XMLCoder" /* XMLCoder */ = {
+		"XMLCoder::XMLCoder" /* XMLCoder-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_144 /* Build configuration list for PBXNativeTarget "XMLCoder" */;
+			buildConfigurationList = OBJ_144 /* Build configuration list for PBXNativeTarget "XMLCoder-iOS" */;
 			buildPhases = (
 				OBJ_147 /* Sources */,
 				OBJ_192 /* Frameworks */,
@@ -626,7 +626,7 @@
 			);
 			dependencies = (
 			);
-			name = XMLCoder;
+			name = "XMLCoder-iOS";
 			productName = XMLCoder;
 			productReference = "XMLCoder::XMLCoder::Product" /* XMLCoder.framework */;
 			productType = "com.apple.product-type.framework";
@@ -670,7 +670,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"XMLCoder::XMLCoder" /* XMLCoder */,
+				"XMLCoder::XMLCoder" /* XMLCoder-iOS */,
 				"XMLCoder::SwiftPMPackageDescription" /* XMLCoderPackageDescription */,
 				"XMLCoder::XMLCoderPackageTests::ProductTarget" /* XMLCoderPackageTests */,
 				"XMLCoder::XMLCoderTests" /* XMLCoderTests */,
@@ -872,7 +872,7 @@
 		};
 		OBJ_276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "XMLCoder::XMLCoder" /* XMLCoder */;
+			target = "XMLCoder::XMLCoder" /* XMLCoder-iOS */;
 			targetProxy = 143B746122ED4A67005D7765 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -881,6 +881,7 @@
 		F0985846231D529F00FCA538 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -912,6 +913,7 @@
 		F0985847231D529F00FCA538 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -959,7 +961,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = XMLCoder;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.2;
 				TARGET_NAME = XMLCoder;
@@ -987,7 +991,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = XMLCoder;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.2;
 				TARGET_NAME = XMLCoder;
@@ -1141,7 +1147,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_144 /* Build configuration list for PBXNativeTarget "XMLCoder" */ = {
+		OBJ_144 /* Build configuration list for PBXNativeTarget "XMLCoder-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_145 /* Debug */,
